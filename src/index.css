@@ -221,7 +221,10 @@ h1 {
 /* Mobile */
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    max-width: 650px;
   }
 
   .msg-col {
