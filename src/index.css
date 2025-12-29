@@ -227,6 +227,12 @@ h1 {
     max-width: 650px;
   }
 
+  .preview-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+
   .msg-col {
     margin-top: 0;
   }
